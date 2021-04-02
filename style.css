@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body{
+    background-image: url('https://wallpapercave.com/wp/wp3091587.jpg')
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+header{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 58px;
+    color: rgb(44, 97, 196);
+}
+
+#red{
+    color:white;
+    background-color:red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    box-shadow: 0 9px black;
+}
+
+#yellow{
+    color:black;
+    background-color:yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    box-shadow: 0 9px black;
+}
+
+#green{
+    color:white;
+    background-color:green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    box-shadow: 0 9px black;
+}
+
+#auto{
+    color:white;
+    background-color:rgb(34, 13, 223);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    box-shadow: 0 9px black;
+}
+
+#stop{
+    color:white;
+    background-color:black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    box-shadow: 0 9px black;
+}
+
+.buttons{
+    padding: 20px;
+}
+
+button:hover {background-color: rgb(247, 148, 173)}
+
+button:active {
+  background-color:   transform: rgb(247, 148, 173);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.copyright{
+    margin-bottom: -60px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
