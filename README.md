@@ -1,4 +1,4 @@
-# TrafficLights
+# Traffic Lights
 
 A simple project to interact with traffic lights. You can turn on all the colors or use the automatic mode. You can test the project in this link : https://codepen.io/ronaldycgomes/pen/MWJJoby.
 
